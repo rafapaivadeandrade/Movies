@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Cinema Movies Enterprise</title>
+
+    <script src="Javascript.js"></script>
+    <style type ="text/css">
+    /* Media Queries Start */
+        @media screen and (max-width:480px) {
+        .container_logo{
+        display:grid;
+        grid-template-columns: 25% 10% 10% 10% 10% 25%;
+        background-color: black;
+        grid-gap: 10px;
+        grid-template-rows: 1fr; 
+        align-items: center;
+        padding: 10px;
+    } 
+        .container_movies{
+        display:grid;
+        grid-template-columns: 10% 40% 50%;
+        grid-auto-rows: 50% 50%;
+        justify-items: center;
+        color: cornflowerblue;
+    }
+        div.us a {
+        padding-top: 30px;
+        display: inline-block;
+        padding-left: 400px;  
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #ff6600;
+        padding-bottom: 40px;
+    }
+        }
+     /*Media Queries End   */ 
+        body {
+            margin: 0;
+            background:linear-gradient(to bottom,rgba(240, 248, 255,0.9),rgba(169, 169, 169,0.5)), url("./background-cinema2.png") no-repeat center/cover;
+            font-family: Garamond;
+            font-size: 20px;
+        }
+        /*
+        *   Menu START
+        */
+    .container_logo{
+        display:grid;
+        grid-template-columns: 25% 10% 10% 10% 10% 25%;
+        background-color: black;
+        grid-gap: 10px;
+        align-items: center;
+        padding: 1px;   
+    }
+    .container_logo a:hover{
+        color: white;
+    }
+    .item-f a{
+        text-decoration:none;
+        color: blue;
+    }
+    .item-a{
+        height: 50px;
+        padding-left: 80px;
+    }
+    .item-b{
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+    .item-c{
+        grid-column: 3;
+        grid-row: 1; 
+        
+    }
+    .item-d{
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .item-e{
+        grid-column: 5;
+        grid-row: 1;
+        
+    }
+    .item-f{
+        grid-column: 6;
+        grid-row: 1;
+        padding-left: 80px;
+    }
+
+    .item-h{
+        grid-column: 6;
+        grid-row: 2;
+        padding-left: 80px;
+    }
+    a.a {
+        color: blue;
+        text-decoration: none;
+        list-style-type: none;
+    }
+   
+     /*
+        *   Menu END
+        */
+    /*
+        *   Movies START
+        */
+    .container_movies{
+        display:grid;
+        grid-template-columns: 10% 40% 50%;
+        grid-auto-rows: 50% 50%;
+        justify-items: center;
+        color: cornflowerblue;
+    }
+    .movies{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .synopsis{
+        grid-column: 3;
+        grid-row: 1;
+        
+    }
+    .days{
+        grid-column: 2;
+        grid-row: 2;
+        align-items: end;
+        align-items: center;
+    }
+    .date{
+        grid-column: 1;
+        grid-row: 2;
+        padding-left: 400px;
+    }
+    .movie_img {
+        display:grid;
+        grid-template-columns: 30% 30% 40%;
+        justify-items: center;
+        background-color: #e6e6e6;
+    }
+    .incredibles2 {
+        height: 140px;
+        padding-top: 10px;
+        
+    }
+    .incredibles {
+        grid-column: 1;
+         
+    }
+    .movie_info {
+        grid-column: 2;
+        padding-top: 20px;
+        padding-right: 190px;
+    }
+    .description {
+        grid-column: 3;
+        padding-top: 40px;
+    }
+    /*
+        *   Movies END
+        */
+    /*   Footer START
+        */
+    div.us a {
+        padding-top: 30px;
+        display: inline-block;
+        padding-left: 400px;  
+        font-family: sans-serif;
+        text-decoration: none;
+        color: blue;
+        padding-bottom: 40px;
+    }
+    div.us a:hover {
+            color: white;
+        }
+    footer {
+        background-color:black;
+        border-top: 10px solid blue ;
+    }
+    
+        /*
+        *   Footer END
+        */
+
+      /*
+        *   Modal User Input START
+        */
+        .bg-modal{
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                position: absolute;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+        }
+        .modal-content{
+            width: 500px;
+            height: 100px;
+            background-color: white;
+            opacity: 1;
+            border-radius: 4px;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .submitButton {
+            background-color: blue;
+            border: 2px solid white;
+            border-radius: 30px;
+            text-decoration: none;
+            padding: 10px 28px;
+            color: white;
+            margin-top: 10px;
+            
+        } 
+        .submitButton:hover{
+            color: gray;
+        }
+        .nameandemail{
+                width: 50%;
+                display: block;
+                margin: 15px auto;    
+        }
+        .close{
+            position: absolute;
+            top: 0;
+            right: 14px;
+            font-size: 42px;
+            transform: rotate(45deg);
+            cursor: pointer;
+        }
+    
+    </style>
+</head>
+<body>
+        <div class="container_logo">       
+            <img src="logo2.png" alt="logo" class="item-a">
+            
+                <div class="item-b"><li><a href="index.html" target="_self" class="a">Home</a></li></div>
+                <div class="item-c"><li><a href="Trailers.html" target="_blank" class="a">Trailers</a></li></div>
+                <div class="item-d"><li><a href="News.html" target="_blank" class="a">News</a></li></div>
+                <div class="item-e"><li><a href="FAQS.html" target="_blank" class="a">FAQs</a></li></div>
+                <div class="item-f"><a href ="#" onclick="showLoginForm()">Log In</a></div>
+        </div>
+    <br/>
+    
+    <div class="container_movies">
+        <div class="movies">
+        <h2>
+            Movies  
+        </h2>
+        </div>
+        <div class="synopsis">
+        <h2>
+            Synopsis
+        </h2>
+      </div>
+      <div class="date">
+            <h2>Date:</h2>
+      </div>          
+      <div class="days">
+      
+    <form>
+        <select id="input"  list="browsers" name="browser" style="height: 60px;width: 110px;" onchange= "changeMe();">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        </select>
+    </form>
+    </div>
+</div>
+    <br />
+        <div id="first">
+        <div class="movie_img">
+            <div class="incredibles">
+            <img src="Incredibles2.jpg" alt="Image" class="incredibles2"/>
+            </div>
+        <div class="movie_info">
+            <h3>Incredibles2 <span>118 min</span></h3>
+            <p>1:05 pm     3:40 pm     7:30 pm</p>
+            </div>
+            <div class="description">
+            <p >
+                The Stretch Woman comes into action to save the day while<br/> Mr.
+                Incredible faces his biggest challenge yet: taking care of the 
+                troubles of his three children.
+            </p>
+            </div>
+            </div>
+            </div>
+    <br/>
+        <div id="second">
+        <div class="movie_img">
+            <div class="incredibles">
+            <img src="Jurassicworld.jpg" alt="Image" class="incredibles2"/>
+        </div>
+        <div class="movie_info">
+            <h3>JurassicWorld <span>90 min</span></h3>
+            <p>12:05 pm     2:40 pm     6:30 pm</p>
+            </div>
+            <div class="description">
+               <p>A new theme park, built on the original site of Jurassic Park, creates
+                   a genetically modified hybrid dinosaur, which escapes containment and 
+                   goes on a killing spree.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            </div>
+            </div>
+            </div>
+    <br/>
+    
+        <div id="third">
+        <div class="movie_img">
+                <div class="incredibles">
+            <img src="Skyscraper.jpg" alt="Image" class="incredibles2"/>
+        </div>
+        <div class="movie_info">
+            <h3>Skyscraper <span>97 min</span></h3>
+            <p>12:40 pm     3:20 pm     6:40 pm</p>
+            </div>
+            <p class="description">
+                FBI Hostage Rescue Team leader and U.S. war veteran Will Sawyer now 
+                    assesses security for skyscrapers. On assignment in Hong Kong he finds 
+                    the tallest, safest building in the world suddenly ablaze, and he's been 
+                    framed for it.
+            </p>
+           </div>
+           </div> 
+        
+</body>
+<br/>
+
+<footer>
+    <div class="us">
+            <a href="About Us.html" target="_blank">About Us</a>
+            <a href="Contact Us.html" target="_blank">Contact Us</a>
+    </div>
+</footer>
+<div class="bg-modal">
+    <div class="modal-content">
+        <div class="close" onclick="closeLoginForm()">
+            +
+        </div>
+        <form>
+            <input type="text" id="username" class = "nameandemail" placeholder="E-mail">
+            <input type="text" id ="password"class = "nameandemail" placeholder="Password">
+            <a href="" class="submitButton" onclick="submitForm()">Submit</a>
+        </form>
+    </div>
+</div>
+</html>
