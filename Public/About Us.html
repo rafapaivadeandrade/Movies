@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Cinema Movies Enterprise</title>
+    <script src="Javascript.js"></script>
+    <style>
+        body {
+            margin: 0;
+            background:linear-gradient(to bottom,rgba(240, 248, 255,0.9),rgba(169, 169, 169,0.5)), url("./background-cinema2.png") no-repeat center/cover;
+            font-family: Garamond;
+            font-size: 20px;
+        }
+    /*
+        *   Menu START
+        */
+        .container_logo{
+        display:grid;
+        grid-template-columns: 25% 10% 10% 10% 10% 25%;
+        background-color: black;
+        grid-gap: 10px;
+        align-items: center;
+        padding: 1px;
+    }
+    .container_logo a:hover{
+        color: white;
+    }
+    .item-f a{
+        text-decoration:none;
+        color: blue;
+    }
+    .item-a{
+        height: 50px;
+        padding-left: 80px;
+    }
+    .item-b{
+        grid-column: 2;
+        grid-row: 1;
+        
+    }
+    .item-c{
+        grid-column: 3;
+        grid-row: 1;
+        
+    }
+    .item-d{
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .item-e{
+        grid-column: 5;
+        grid-row: 1;
+        
+    }
+    .item-f{
+        grid-column: 6;
+        grid-row: 1;
+        padding-left: 80px;
+    }
+    a.a {
+        color: blue;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+     /*
+        *   Menu END
+        */    
+        /*
+        *   Grid START
+        */    
+    .grid {
+        display: grid;
+        grid-template-columns:1fr 2fr 8fr 4fr;
+        grid-template-rows: 7% 0.5fr 1fr 1fr;
+        grid-template-areas: 
+        ". About About ."
+        ". AboutText AboutText ."
+        ". AboutImg AboutImg ."
+        ". AboutContactUs AboutContactUs .";
+    }
+    .About {
+        grid-area:About;
+        color: cornflowerblue;
+        
+    }
+    .AboutText{
+        grid-area:AboutText;
+        font-size: 18px;
+    }
+    .AboutImg{
+        grid-area:AboutImg;
+    }
+    .AboutContactUs{
+        grid-area:AboutContactUs;
+        font-size: 18px;
+    }/*
+        *   Grid END
+        */    
+    
+    /*   Footer START
+        */
+        div.us a {
+        padding-top: 30px;
+        display: inline-block;
+        padding-left: 400px;  
+        font-family: sans-serif;
+        text-decoration: none;
+        color: blue;
+        padding-bottom: 40px;
+    }
+    div.us a:hover {
+            color: white;
+        }
+    footer {
+        background-color:black;
+        border-top: 10px solid blue; ;
+    }
+    
+        /*
+        *   Footer END
+        */
+         /*
+        *   Modal User Input START
+        */
+        .bg-modal{
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                position: absolute;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+        }
+        .modal-content{
+            width: 500px;
+            height: 100px;
+            background-color: white;
+            opacity: 1;
+            border-radius: 4px;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        .submitButton {
+            background-color: blue;
+            border: 2px solid white;
+            border-radius: 30px;
+            text-decoration: none;
+            padding: 10px 28px;
+            color: white;
+            margin-top: 10px;
+            
+        } 
+        .submitButton:hover{
+            color: gray;
+        }
+        .nameandemail{
+                width: 50%;
+                display: block;
+                margin: 15px auto;    
+        }
+        .close{
+            position: absolute;
+            top: 0;
+            right: 14px;
+            font-size: 42px;
+            transform: rotate(45deg);
+            cursor: pointer;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container_logo">       
+        <img src="logo2.png" alt="logo" class="item-a">
+        
+        <div class="item-b"><li><a href="index.html" target="_blank" class="a">Home</a></li></div>
+        <div class="item-c"><li><a href="Trailers.html" target="_blank" class="a">Trailers</a></li></div>
+        <div class="item-d"><li><a href="News.html" target="_blank" class="a">News</a></li></div>
+        <div class="item-e"><li><a href="FAQS.html" target="_blank" class="a">FAQs</a></li></div>
+        <div class="item-f"><a href ="#" onclick="showLoginForm()">Log In</a></div>
+    </div>
+<br/>
+
+<div class="grid">
+    <div class="About">
+        <h3>About Us</h3>
+    </div>
+    <div class="AboutText">
+        <p>Acquired in January 2018 by Cinema Movies Enterprise is Canada’s second largest motion
+             picture theatre exhibition company.</p>
+        <p>We continue to provide the perfect setting for popcorn munching
+             Movie Lovers to connect and share their love of movies at 35 theatres on 317 screens throughout Western 
+             Canada, Ontario and the Yukon Territory, in multiple formats that include Premium Large Format (PLF) brands
+              (IMAX®, Extra, Xtreme), and RealD 3D technology, and in select locations in the premium comfort of Full-Recliner
+               Seating and with the added convenience of FREE Reserved Seating.</p>
+        <p>We are connected to the communities we serve, we are committed to support the mental health and well-being of both
+             our youth Guests and Cast & Crew.</p>
+    </div>
+    <div class="AboutImg">
+        <img src="6.jpg" alt="image">
+    </div>
+    <div class="AboutContactUs">
+        <h3>Contact Us</h3><hr/>
+        <p>Our corporate headquarters is located in Calgary, Alberta, with a satellite office in Toronto, Ontario. For questions
+             and or comments you may contact us at:</p>
+        <p><b>Cinema Movies Enterprise.</b><br/>
+            208 Third Avenue <br/>
+            New Westminster, British Columbia <br/>
+            V3L 1M1 <br/>
+            
+            PHONE: 1 (604) 499-2392</p>
+    </div>
+</div>
+
+
+</body>
+<br/>
+<footer>
+    <div class="us">
+        <a href="About Us.html" target="_self">About Us</a>
+        <a href="Contact Us.html" target="_blank">Contact Us</a>
+    </div>
+</footer>
+<div class="bg-modal">
+    <div class="modal-content">
+        <div class="close" onclick="closeLoginForm()">
+            +
+        </div>
+        <form>
+            <input type="text" id="username" class = "nameandemail" placeholder="E-mail">
+            <input type="text" id ="password"class = "nameandemail" placeholder="Password">
+            <a href="" class="submitButton" onclick="submitForm()">Submit</a>
+        </form>
+    </div>
+</div>
+</html>
