@@ -6,7 +6,7 @@ function changeMe(){
     var m1 = '<div id="first">\
 <div class="movie_img">\
         <div class="incredibles">\
-    <img src="Skyscraper.jpg" alt="Image" class="incredibles2"/>\
+    <img src="Public/Skyscraper.jpg" alt="Image" class="incredibles2"/>\
 </div>\
 <div class="movie_info">\
     <h3>Skyscraper <span>97 min</span></h3>\
@@ -24,7 +24,7 @@ function changeMe(){
    var m2 = '<div id="second">\
     <div class="movie_img">\
             <div class="incredibles">\
-        <img src="Annabelle.jpg" alt="Image" class="incredibles2"/>\
+        <img src="Public/Annabelle.jpg" alt="Image" class="incredibles2"/>\
     </div>\
     <div class="movie_info">\
         <h3>Annabelle <span>92 min</span></h3>\
@@ -40,7 +40,7 @@ function changeMe(){
        var m3 = '<div id="third">\
        <div class="movie_img">\
                <div class="incredibles">\
-           <img src="Avatar.jpg" alt="Image" class="incredibles2"/>\
+           <img src="Public/Avatar.jpg" alt="Image" class="incredibles2"/>\
        </div>\
        <div class="movie_info">\
            <h3>Avatar <span>102 min</span></h3>\
@@ -62,7 +62,7 @@ function changeMe(){
  var t1 = '<div id="first">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="BladeRunner.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/BladeRunner.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>BladeRunner <span>156 min</span></h3>\
@@ -78,7 +78,7 @@ function changeMe(){
  var t2 = '<div id="second">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Brave.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Brave.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Brave <span>93 min</span></h3>\
@@ -95,7 +95,7 @@ function changeMe(){
  var t3 = '<div id="third">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Equalizer.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Equalizer.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Equalizer <span>106 min</span></h3>\
@@ -116,7 +116,7 @@ function changeMe(){
  var w1 = '<div id="first">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="fightclub.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/fightclub.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Fight Club <span>120 min</span></h3>\
@@ -132,7 +132,7 @@ function changeMe(){
  var w2 = '<div id="second">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Getout.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Getout.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Get Out <span>100 min</span></h3>\
@@ -148,7 +148,7 @@ function changeMe(){
  var w3 ='<div id="third">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Meg.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Meg.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Meg <span>80 min</span></h3>\
@@ -169,7 +169,7 @@ function changeMe(){
  var th1 = '<div id="first">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="lalaland.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/lalaland.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Lalaland <span>140 min</span></h3>\
@@ -184,7 +184,7 @@ function changeMe(){
  var th2 = '<div id="second">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="madagascar.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/madagascar.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Madagascar <span>80 min</span></h3>\
@@ -200,7 +200,7 @@ function changeMe(){
  var th3 = '<div id="third">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Mission.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Mission.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Mission Impossible <span>120 min</span></h3>\
@@ -220,7 +220,7 @@ function changeMe(){
  var f1 = '<div id="first">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Mummy.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Mummy.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Mummy Impossible <span>135 min</span></h3>\
@@ -235,7 +235,7 @@ function changeMe(){
  var f2 = '<div id="second">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Pulp.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Pulp.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Pulp Fiction <span>170 min</span></h3>\
@@ -250,7 +250,7 @@ function changeMe(){
  var f3 = '<div id="third">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="ratattoulie.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/ratattoulie.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Ratattoulie <span>110 min</span></h3>\
@@ -269,7 +269,7 @@ function changeMe(){
  var s1 = '<div id="first">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Star.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Star.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Star Wars <span>180 min</span></h3>\
@@ -285,7 +285,7 @@ function changeMe(){
  var s2 = '<div id="second">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Startrek.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Startrek.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Startrek <span>170 min</span></h3>\
@@ -300,7 +300,7 @@ function changeMe(){
  var s3 = '<div id="third">\
  <div class="movie_img">\
          <div class="incredibles">\
-     <img src="Venom.jpg" alt="Image" class="incredibles2"/>\
+     <img src="Public/Venom.jpg" alt="Image" class="incredibles2"/>\
  </div>\
  <div class="movie_info">\
      <h3>Venom <span>130 min</span></h3>\

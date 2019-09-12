@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Movie Website",
   "main": "Javascript.js",
+  "homepage": "https//rafapaivadeandrade.github.io/Movies",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -to index.html"
   },
   "author": "Rafael",
   "license": "ISC",
